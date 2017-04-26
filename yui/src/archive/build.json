@@ -1,0 +1,10 @@
+{
+  "name": "moodle-local_rlsiteadmin-archive",
+  "builds": {
+    "moodle-local_rlsiteadmin-archive": {
+        "jsfiles": [
+            "archive.js"
+        ]
+    }
+  }
+}

@@ -1,0 +1,1 @@
+/* widget specific footer js here */

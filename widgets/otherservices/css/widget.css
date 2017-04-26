@@ -1,0 +1,17 @@
+.rl-dashboard-widget.otherservices {
+    width: 45.5%;
+}
+
+@media (max-width: 1499px) {
+
+    .rl-dashboard-widget.otherservices {
+        width: 45.5%;
+    }
+}
+
+@media (max-width: 979px) {
+
+    .rl-dashboard-widget.otherservices {
+        width: 100%;
+    }
+}

@@ -1,0 +1,74 @@
+{
+"result": "OK",
+"data": {
+"bigbluebutton": {
+"name": "bigbluebutton",
+"display_name": "BigBlueButton",
+"description": "BigBlueButton is an open source web conferencing system developed primarily for distance education.",
+"plugins": [
+"mod_bigbluebuttonbn",
+"mod_recordingsbn"
+]
+},
+"bbcollaborate": {
+"name": "bbcollaborate",
+"display_name": "Blackboard Collaborate",
+"description": "Blackboard Collaborative Learning Platform Designed for Education.",
+"plugins": [
+"block_elluminate",
+"mod_elluminate"
+]
+},
+"bbim": {
+"name": "bbim",
+"display_name": "Blackboard IM",
+"description": "Blackboard instant messaging.",
+"plugins": [
+"block_pronto",
+"mod_pronto"
+]
+},
+"checklist": {
+"name": "checklist",
+"display_name": "Checklist",
+"description": "Display progress bars in a single checklist.",
+"plugins": [
+"block_checklist",
+"gradeexport_checklist",
+"mod_checklist"
+]
+},
+"coursemerchant": {
+"name": "coursemerchant",
+"display_name": "Course Merchant",
+"description": "Fully featured e-commerce application.",
+"plugins": [
+"local_coursemerchantrpc",
+"auth_coursemerchant"
+]
+},
+"equella": {
+"name": "equella",
+"display_name": "Equella",
+"description": "The EQUELLA and Moodle integration enables learners and instructors within the Moodle community to natively select EQUELLA content and populate it into their course structure.",
+"plugins": [
+"block_equella_search",
+"block_equella_tasks",
+"mod_equella"
+]
+},
+"googleapps": {
+"name": "googleapps",
+"display_name": "Google Apps",
+"description": "Google Apps Integration.",
+"plugins": [
+"auth_gauth",
+"block_gaccess",
+"block_gmail",
+"gradeexport_fusion",
+"repository_googledrive"
+]
+}
+},
+"timestamp": 1485576186
+}

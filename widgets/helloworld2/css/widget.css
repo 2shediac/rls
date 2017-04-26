@@ -1,0 +1,37 @@
+/* test styles for masonry layout */
+.rl-dashboard-widget.helloworld {
+    text-align: center;
+}
+
+.rl-dashboard-widget.helloworld i {
+    font-size: 200px;
+}
+
+.rl-dashboard-widget.helloworld:nth-child(2n) {
+    min-height: 400px;
+}
+
+.rl-dashboard-widget.helloworld:nth-child(3), .rl-dashboard-widget.helloworld:nth-child(6) {
+    min-height: 300px;
+}
+
+/* test style to demonstrate wider widget */
+.rl-dashboard-widget.helloworld:nth-child(2) {
+    width: 62.66%;
+}
+
+@media (max-width: 1499px) {
+
+    .rl-dashboard-widget.helloworld:nth-child(2) {
+        width: 45.5%;
+    }
+}
+
+@media (max-width: 979px) {
+
+    .rl-dashboard-widget.helloworld:nth-child(2) {
+        width: 100%;
+    }
+}
+
+/* end test styles */

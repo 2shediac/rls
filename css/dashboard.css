@@ -1,0 +1,6 @@
+.tab-content>.tab-pane {
+    min-height: 800px !important;
+}
+.rl-dashboard-support-well, .rl-dashboard-reports-well {
+	display: none;
+}

@@ -1,0 +1,32 @@
+.rl-dashboard-widget.trafficstats {
+    width: 45.5%;
+}
+
+@media (max-width: 1499px) {
+
+    .rl-dashboard-widget.trafficstats {
+        width: 45.5%;
+    }
+}
+
+@media (max-width: 979px) {
+
+    .rl-dashboard-widget.trafficstats {
+        width: 100%;
+    }
+}
+
+#browserstats-graph {
+    min-height: 400px;
+}
+
+#browserstats-graph .loading-spinner {
+    text-align: center;
+    opacity: .1;
+    font-size: 2em;
+    padding: 120px 0 40px;
+}
+
+#browserstats-graph svg {
+    max-width: 100%;
+}

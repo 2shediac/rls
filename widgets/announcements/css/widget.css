@@ -1,0 +1,17 @@
+.rl-dashboard-widget.announcements {
+    width: 45.5%;
+}
+
+@media (max-width: 1499px) {
+
+    .rl-dashboard-widget.announcements {
+        width: 45.5%;
+    }
+}
+
+@media (max-width: 979px) {
+
+    .rl-dashboard-widget.announcements {
+        width: 100%;
+    }
+}

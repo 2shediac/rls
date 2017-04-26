@@ -1,0 +1,13 @@
+{
+  "moodle-local_rlsiteadmin-archive": {
+    "requires": [
+        "base",
+        "node",
+        "panel",
+        "plugin",
+        "transition",
+        "event",
+        "event-delegate"
+    ]
+  }
+}

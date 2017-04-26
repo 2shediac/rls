@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="local/rlsiteadmin/db" VERSION="20120531" COMMENT="XMLDB file for RL Site Admin"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd">
+  <TABLES>
+    <TABLE NAME="local_rlsiteadmin_rating" COMMENT="Table to store plugin ratings.">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
+        <FIELD NAME="userid" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="false"/>
+        <FIELD NAME="plugin" TYPE="char" LENGTH="100" NOTNULL="true" SEQUENCE="false"/>
+        <FIELD NAME="rating" TYPE="int" LENGTH="2" NOTNULL="true" SEQUENCE="false"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+    </TABLE>
+    <TABLE NAME="local_rlsiteadmin_schedule" COMMENT="Table to store scheduled updates">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" UNSIGNED="true" SEQUENCE="true" NEXT="key"/>
+        <FIELD NAME="eventkey" TYPE="char" LENGTH="32" NOTNULL="true" SEQUENCE="false" PREVIOUS="id" NEXT="type"/>
+        <FIELD NAME="type" TYPE="char" LENGTH="12" NOTNULL="true" SEQUENCE="false" PREVIOUS="eventkey" NEXT="scheduleddate"/>
+        <FIELD NAME="scheduleddate" TYPE="int" LENGTH="10" NOTNULL="true" UNSIGNED="true" DEFAULT="0" SEQUENCE="false" PREVIOUS="type" NEXT="originaldate"/>
+        <FIELD NAME="originaldate" TYPE="int" LENGTH="10" NOTNULL="true" UNSIGNED="true" DEFAULT="0" SEQUENCE="false" PREVIOUS="scheduleddate" NEXT="rundate"/>
+        <FIELD NAME="rundate" TYPE="int" LENGTH="10" NOTNULL="true" UNSIGNED="true" DEFAULT="0" SEQUENCE="false" PREVIOUS="originaldate" NEXT="description"/>
+        <FIELD NAME="description" TYPE="char" LENGTH="255" NOTNULL="true" SEQUENCE="false" PREVIOUS="rundate" NEXT="status"/>
+        <FIELD NAME="status" TYPE="int" LENGTH="1" NOTNULL="true" UNSIGNED="true" DEFAULT="0" SEQUENCE="false" PREVIOUS="description" NEXT="notification"/>
+        <FIELD NAME="notification" TYPE="int" LENGTH="1" NOTNULL="true" UNSIGNED="true" DEFAULT="0" SEQUENCE="false" PREVIOUS="status" NEXT="log"/>
+        <FIELD NAME="log" TYPE="text" LENGTH="small" NOTNULL="true" SEQUENCE="false" PREVIOUS="notification" NEXT="updateddate"/>
+        <FIELD NAME="updateddate" TYPE="int" LENGTH="10" NOTNULL="true" UNSIGNED="true" DEFAULT="0" SEQUENCE="false" PREVIOUS="log"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+        <KEY NAME="eventkey" TYPE="unique" FIELDS="eventkey"/>
+      </KEYS>
+      <INDEXES>
+        <INDEX NAME="scheduled" UNIQUE="false" FIELDS="scheduleddate" COMMENT="Speeds up schedule look ups."/>
+      </INDEXES>
+    </TABLE>
+  </TABLES>
+</XMLDB>

@@ -1,0 +1,791 @@
+.region-content .local_rlsiteadmin .content {
+    padding: 0.5em;
+}
+.local_rlsiteadmin .warning {
+    float: left;
+}
+.local_rlsiteadmin .error {
+    width: 9em;
+    float: right;
+    color: #A00;
+}
+
+.local_rlsiteadmin .event {
+    padding-top: 1em;
+	text-align: center;
+}
+
+.local_rlsiteadmin .clear,
+#page-local-rlsiteadmin-schedule .clear {
+    clear: both;
+}
+
+#page-local-rlsiteadmin-schedule table.flexible {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#page-local-rlsiteadmin-schedule div.event {
+    padding: 10px;
+}
+
+#page-local-rlsiteadmin-schedule div.event div.title {
+    font-size: 125%;
+    line-height: 125%;
+    font-weight: bolder;
+}
+
+#page-local-rlsiteadmin-schedule div.event div.heading {
+    float: left;
+    width: 10em;
+}
+
+#page-local-rlsiteadmin-schedule div.event div.value {
+    float: left;
+}
+
+#page-local-rlsiteadmin-schedule div.event div.change {
+    float: right;
+}
+
+#page-local-rlsiteadmin-schedule div.event div.status {
+    float: right;
+    padding-left: 1em;
+}
+
+#page-local-rlsiteadmin-schedule div.event div.log {
+    height: 12em;
+    width: 80%;
+    float: left;
+    white-space: pre;
+    background-color: #F2F2F2;
+    border: solid 1px #999999;
+    padding: 1em;
+    overflow: auto;
+}
+
+#page-local-rlsiteadmin-schedule #popup {
+    margin-top: 8em;
+    padding: 1em;
+}
+
+#page-local-rlsiteadmin-schedule #popup .mform .fitem .fitemtitle {
+    width: 20%;
+}
+
+#page-local-rlsiteadmin-schedule #popup .mform .fitem .felement {
+    margin-left: 21%;
+    width: 75%;
+}
+
+#page-local-rlsiteadmin-schedule #popup .close {
+    text-align: center;
+}
+
+/** Local Moodle Addon Self Service styles **/
+.navbar {
+    margin-bottom: 20px;
+}
+
+.container.header {
+    margin-top: 40px;
+    padding: 30px;
+}
+
+.refine-search .input-group.search {
+    width: 100%;
+}
+
+.refine-search label {
+    margin-bottom: 0px;
+}
+
+.refine-search label:first-of-type {
+    margin-top: 5px;
+}
+
+.refine-search .input-group {
+    margin-top: 0px;
+}
+
+.plugin img {
+    background: none;
+}
+
+.plugin .avg-rating {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.plugin .available {
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.plugin .choose {
+    display: block;
+    float: right;
+    margin-left: 10px;
+}
+
+.plugin .media-body p {
+    margin-top: 5px;
+}
+
+.plugin .reviews {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plugin > ul.media-list > li.media {
+    width: 70%;
+    display: inline;
+}
+
+.plugin ul.media-list ul.media-list {
+    margin: 20px 0 0 0;
+}
+
+.plugin .media-list.reviews {
+    display: none;
+}
+
+.sort-by {
+    display:block;
+    margin: 0 auto 10px auto;
+}
+
+.sort-by .input-prepend input {
+    width: 100%;
+}
+
+.rate-plugin p {
+    margin: 0 0 5px 0;
+}
+
+.rate-plugin .fa {
+    font-size: 18px;
+}
+
+.media-body .rate-plugin .fa {
+    margin-right: 2px;
+}
+
+.choose {
+    text-align: center;
+}
+
+.choose button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.plugin-type.fa {
+    font-size: 36px;
+    margin: 5px;
+}
+
+.plugin-type::before {
+    margin-right: 5px;
+}
+
+.media-body .fa {
+    margin-right: 6px;
+}
+
+.media-body .fa-check {
+    color: green;
+}
+
+.media-body .fa-warning {
+    color: orange;
+}
+
+.choose .fa-trash-o {
+    font-weight: bold;
+}
+
+.avg-rating h5 {
+    margin-bottom: 5px;
+}
+
+.avg-rating .fa {
+    font-size: 18px;
+}
+
+.available h5 {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+span.available-version {
+     border: 2px solid;
+     -moz-border-radius: 5px;
+     -webkit-border-radius: 5px;
+     border-radius: 5px;
+     border-color: green;
+     width: 50px;
+     margin: 5px;
+     padding: 0 3px;
+}
+
+span.notavailable-version {
+     color: grey;
+     border: 2px solid;
+     -moz-border-radius: 5px;
+     -webkit-border-radius: 5px;
+     border-radius: 5px;
+     border-color: red;
+     width: 50px;
+     margin: 5px;
+     padding: 0 3px;
+}
+.notavailable-version .fa-times {
+    position: absolute;
+    margin-top: 8px;
+    margin-left: -2px;
+    font-size: 25px;
+    color: red;
+    opacity: .4;
+}
+
+/* Testing plugin type icons */
+.plugin-icon .fa {
+    font-size: 36px;
+    margin: 5px;
+}
+
+.plugin-icon .fa::before {
+    margin-right: 5px;
+}
+
+.plugin-select .row {
+    margin-left: 0;
+}
+
+.site-update {
+    margin: 10px;
+}
+
+/* Plugin buttons */
+.plugin .btn-install {
+    margin-bottom: 5px;
+}
+
+.plugin .btn i {
+    margin-right: 3px;
+}
+
+.btn.dropdown-toggle .caret {
+    margin-left: 3px;
+}
+
+/* Plugin action list items */
+ul.plugin-actions li {
+    margin: 0 10px 2px 10px;
+}
+
+ul.plugin-actions li i.fa-plus,
+ul.plugin-actions li i.fa-times,
+ul.plugin-actions li i.fa-level-up {
+    margin-right: 5px;
+    opacity: .5;
+}
+
+ul.plugin-actions li i.fa-times-circle {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#manage-actions-modal .yui3-widget-bd {
+    overflow-y: auto;
+}
+
+#manage-actions-modal ul > li {
+    margin-left: 30px;
+}
+
+@-webkit-keyframes barpulse {
+    from {
+        opacity: 1;
+    }
+    50% {
+        opacity: .7;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes barpulse {
+    from {
+        opacity: 1;
+    }
+    50% {
+        opacity: .7;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#status-bar .bar {
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webjut-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-name: barpulse;
+            animation-name: barpulse;
+}
+
+#action-results {
+    width: 20px;
+    margin: 50px auto 30px auto;
+}
+
+i.fa-spinner {
+    font-size: 30px;
+}
+
+/* site update/sync with production prior to update/install */
+.site-update-spinner i.fa-spinner,
+.site-update-spinner h4 {
+    display: inline-block;
+}
+
+.site-update-spinner .fa-spinner {
+    margin-left: 7px;
+}
+
+@-webkit-keyframes dot {
+      0% { opacity: 0; }
+     50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes dot {
+      0% { opacity: 0; }
+     50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* End testing plugin type icons */
+
+.labels-box {
+    clear: both;
+    margin-bottom: 10px;
+}
+
+.labels-box h4,
+.labels-box .labels {
+    margin-top: 0;
+    display: inline;
+}
+
+.labels-box .labels .fa {
+    margin-left: 5px;
+    margin-right: -3px;
+}
+
+.plugin-select .input-prepend,
+.plugin-select .input-append {
+    margin-bottom: 0;
+}
+
+.view-apply-filters-box {
+    margin-bottom: 10px;
+}
+
+.view-apply-filters-box .btn i.fa {
+    margin-right: 5px;
+}
+
+.labels span.badge {
+    margin: 0 0 2px 3px;
+}
+
+/* Actions Dropdown */
+.plugin-actions li.actions i.fa {
+    margin: 0 5px 0 3px;
+}
+
+.plugin-actions li.actions i.fa-times {
+    margin-left: 15px;
+}
+
+.dropdown-menu.plugin-actions > li > a {
+    padding: 3px 10px;
+}
+
+.notify-email {
+    font-weight: bold;
+}
+
+.update-controls {
+    margin-top: 10px;
+}
+
+.update-controls button {
+    margin-right: 5px;
+}
+
+.update-controls i.fa {
+    margin-right: 3px;
+}
+
+.text-center .fa.fa-lock {
+  display: block;
+  font-size: 40px;
+}
+
+.plugins .loading-spinner {
+    text-align: center;
+    opacity: .1;
+    font-size: 2em;
+    padding: 80px 0 40px;
+}
+
+/* archive styles */
+.archive-manager {
+    line-height: auto;
+}
+
+.archive-manager .row {
+    margin-left: 0;
+}
+
+.archive-manager .spinner {
+    text-align: center;
+    opacity: .1;
+    font-size: 2em;
+    padding: 40px 0;
+}
+
+#rlarchives .count {
+    display: none;
+    font-size: 18px;
+    float: right;
+}
+
+#rlarchives .count.show {
+    display: block;
+}
+
+.archive-manager .archive-manager .block {
+    opacity: 1;
+    width: 100%;
+    color: #666;
+    padding: 10px 0;
+    -webkit-transition: opacity 1s; /* Safari */
+            transition: opacity 1s;
+}
+
+.archive-manager .block.yui3-dd-proxy:before {
+    content: none;
+}
+
+.archive-manager .archive-manager .block.fadedout {
+    opacity: 0;
+}
+
+.archive-manager .block .icon {
+    font-size: 42px;
+    height: 42px;
+    color: #aaa;
+    float: left;
+    margin-left: 10px;
+    line-height: 1em;
+}
+
+.archive-manager .block .date {
+    font-size: 1.2em;
+}
+
+.archive-manager .block .button {
+    cursor: pointer;
+    color: #aaa;
+    -webkit-transition: color .2s; /* Safari */
+            transition: color .2s;
+}
+
+.archive-manager .block .button:hover,
+.archive-manager .block .button:focus,
+.archive-manager .block .button:active {
+    color: #666;
+    -webkit-transition: color .1s; /* Safari */
+            transition: color .1s;
+}
+
+.archive-manager .snapshot.yui3-dd-draggable {
+    cursor: move;
+}
+
+.archive-manager .snapshot .date {
+    float: left;
+    padding: 10px 0;
+    margin-left: 10px;
+}
+
+.archive-manager .snapshot .expiration {
+    float: right;
+    padding: 10px 0;
+    margin-right: 10px;
+}
+
+.archive-manager .snapshot .save {
+    float: right;
+    margin-right: 10px;
+    padding: 5px 0;
+}
+
+.archive-manager .archive .icon {
+    padding: 5px 0;
+}
+
+.archive-manager .archive .icon .fa-gear {
+    display: none;
+    position: absolute;
+    margin-top: -31px;
+    margin-left: 13px;
+    font-size: 20px;
+}
+
+.archive-manager .archive.restore-in-progress .controls .discard,
+.archive-manager .archive.restore-ready .controls .discard {
+    display: none;
+}
+
+.archive-manager .archive.restore-in-progress .icon .fa-gear {
+    color: #777;
+    display: block;
+}
+
+.archive-manager .archive.restore-ready .icon .fa-cloud {
+    color: #fff;
+    text-shadow: 0 0 3px #777;
+}
+
+.archive-manager .archive .icon .fa-wifi {
+    display: none;
+    position: absolute;
+    margin-top: -31px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.archive-manager .archive.restore-ready .icon .fa-wifi {
+    color: #777;
+    display: block;
+}
+
+.archive-manager .archive.restore-ready {
+    -webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,.2);
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.2);
+}
+
+.archive-manager .archive .info {
+    float: left;
+    padding: 5px 0;
+    margin: 0 10px;
+    max-width: 380px;
+}
+
+.archive-manager .archive .controls {
+    float: right;
+    margin: 0 10px;
+}
+
+.archive-manager .archive .status {
+    font-size: .9em;
+}
+
+.archive-manager .archive .controls .power {
+    margin-bottom: 15px;
+}
+
+.archive-manager .archive.restore-ready .controls .power,
+.archive-manager .archive.restore-in-progress .controls .power {
+    color: #666;
+}
+
+.archive-manager .slot {
+    opacity: .3;
+    -webkit-transition: all .5s; /* Safari */
+            transition: all .5s;
+}
+
+.archive-manager .slot .info {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.archive-manager .slot.yui3-dd-drop-active-valid {
+    padding: 10px 0;
+    -webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,.2) inset;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.2) inset;
+    opacity: 1;
+    -webkit-transition: all .5s; /* Safari */
+            transition: all .5s;
+}
+
+.archive-manager .slot.yui3-dd-drop-over {
+    border: 1px solid #999;
+    -webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,.3) inset;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.3) inset;
+}
+
+.archive-manager .slot .spinner {
+    display: none;
+}
+
+.archive-manager .archive .spinner {
+    font-size: 1em;
+    padding: 5px 0;
+    display: block;
+}
+
+/* Tempaltes used for dom injection, hidden from the user. */
+.archive-manager .templates,
+.archive-manager #useremail {
+    display: none;
+}
+
+/* Archive error styles */
+.archive-manager .archive-error {
+    width: 60%;
+    padding: 4% 4% 6% 4%;
+    margin: 0 auto 40px;
+    font-size: 1.6em;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+.archive-manager .archive-error i {
+    display: block;
+    margin: 0 auto 10px;
+    font-size: 80px;
+}
+
+/* dashboard styles */
+
+/* widget styles */
+.rl-dashboard-widget-wrapper {
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.rl-dashboard-widget-wrapper:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.rl-dashboard-widget {
+    width: 45.5%;
+    margin: 0 2%;
+    min-height: 200px;
+}
+
+.rl-dashboard-widget.block {
+    background: #fff;
+    color: #333;
+    border-width: 1px;
+    padding: 0;
+}
+
+.rl-dashboard-widget.block:before {
+    content: "";
+    display: none;
+}
+
+.rl-dashboard-widget-inner {
+    padding: 0;
+}
+
+.rl-dashboard-widget-inner .widget-header {
+    background-color: #f8f8f8;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.rl-dashboard-widget-inner .widget-header .rlsiteadmin-widget-info-button {
+    display: block;
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    opacity: .6;
+}
+
+.rl-dashboard-widget-inner .widget-header .rlsiteadmin-widget-info-button:hover {
+    opacity: 1;
+}
+
+.rl-dashboard-widget-inner .widget-body {
+    font-size: 14px;
+    background: #fff;
+    padding: 20px;
+}
+
+.rl-dashboard-widget-inner .rlsiteadmin-widget-info {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    background: rgba(255, 255, 255, .95);
+}
+
+.rl-dashboard-widget-inner .rlsiteadmin-widget-info.show {
+    display: block;
+}
+
+.rl-dashboard-widget-inner .rlsiteadmin-widget-info .rlsiteadmin-widget-info-close-button {
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    cursor: pointer;
+    opacity: .6;
+}
+
+.rl-dashboard-widget-inner .rlsiteadmin-widget-info .rlsiteadmin-widget-info-close-button:hover {
+    opacity: 1;
+}
+
+.rl-dashboard-widget-inner .rlsiteadmin-widget-info .rlsiteadmin-widget-info-inner {
+    padding: 100px 40px;
+}
+
+.rl-dashboard-widget-inner img {
+    max-width: 100%;
+}
+
+@media (max-width: 979px) {
+
+    .rl-dashboard-widget {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+#region-main .rl-dashboard-widget iframe {
+    background: #fff;
+    display: block;
+    margin-top: 0;
+}
+/* end widget styles */
+
+/* end dashboard styles */

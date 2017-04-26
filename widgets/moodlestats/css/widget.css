@@ -1,0 +1,20 @@
+/* test styles for masonry layout */
+.rl-dashboard-widget.moodlestats {
+    width: 45.5%;
+}
+
+@media (max-width: 1499px) {
+
+    .rl-dashboard-widget.moodlestats {
+        width: 45.5%;
+    }
+}
+
+@media (max-width: 979px) {
+
+    .rl-dashboard-widget.moodlestats {
+        width: 100%;
+    }
+}
+
+/* end test styles */
